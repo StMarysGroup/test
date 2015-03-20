@@ -11,7 +11,7 @@ def email_sender(file):
     for char in sender_line:
         beginning_position = sender_line.find("<")
         ending_position = sender_line.find(">")
-    extract_email = sender_line[beginning_position + 1:ending_position]
+    extract_email = sender_line[beginning_positionf + 1:ending_position]
     print("Sender email:", extract_email)
     
 def email_receiver(file):
